@@ -1,0 +1,18 @@
+ /* These are the classes used in styleing video component of google meet*/
+.Gv1mTb-aTv5jf,
+.Gv1mTb-PVLJEc
+{
+    filter:blur(20px) grayscale(0);
+    transition-duration: 0ms;
+   
+}
+ /* These styles occur when we hover over the meet*/
+
+.Gv1mTb-aTv5jf:hover, 
+.Gv1mTb-PVLJEc:hover
+{
+
+    /* background-color: blueviolet;This is used to detect the changes are going on */
+    filter:blur(0) grayscale(1);
+    transition-delay:0.4s;
+}
